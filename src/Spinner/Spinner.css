@@ -1,0 +1,62 @@
+.Spinner {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar {
+    width: 50px;
+    height: 100px;
+    background-color: darkslategray;
+    border-radius: 25px / 50px;
+
+    position: absolute;
+}
+
+.deg30 {
+    transform: rotate(30deg) translate(12em) rotate(-90deg);
+}
+
+.deg60 {
+    transform: rotate(60deg) translate(12em) rotate(-90deg);
+}
+
+.deg90 {
+    transform: rotate(90deg) translate(12em) rotate(-90deg);
+}
+
+.deg120 {
+    transform: rotate(120deg) translate(12em) rotate(-90deg);
+}
+
+.deg150 {
+    transform: rotate(150deg) translate(12em) rotate(-90deg);
+}
+
+.deg180 {
+    transform: rotate(180deg) translate(12em) rotate(-90deg);
+}
+
+.deg210 {
+    transform: rotate(210deg) translate(12em) rotate(-90deg);
+}
+
+.deg240 {
+    transform: rotate(240deg) translate(12em) rotate(-90deg);
+}
+
+.deg270 {
+    transform: rotate(270deg) translate(12em) rotate(-90deg);
+}
+
+.deg300 {
+    transform: rotate(300deg) translate(12em) rotate(-90deg);
+}
+
+.deg330 {
+    transform: rotate(330deg) translate(12em) rotate(-90deg);
+}
+
+.deg360 {
+    transform: rotate(360deg) translate(12em) rotate(-90deg);
+}
