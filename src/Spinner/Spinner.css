@@ -11,52 +11,75 @@
     border-radius: 25px / 50px;
 
     position: absolute;
+
+    animation: flush infinite 1.2s linear;
 }
 
-.deg30 {
+.bar:nth-child(1) {
     transform: rotate(30deg) translate(12em) rotate(-90deg);
+    animation-delay: .1s;
 }
 
-.deg60 {
+.bar:nth-child(2) {
     transform: rotate(60deg) translate(12em) rotate(-90deg);
+    animation-delay: .2s;
 }
 
-.deg90 {
+.bar:nth-child(3) {
     transform: rotate(90deg) translate(12em) rotate(-90deg);
+    animation-delay: .3s;
 }
 
-.deg120 {
+.bar:nth-child(4) {
     transform: rotate(120deg) translate(12em) rotate(-90deg);
+    animation-delay: .4s;
 }
 
-.deg150 {
+.bar:nth-child(5) {
     transform: rotate(150deg) translate(12em) rotate(-90deg);
+    animation-delay: .5s;
 }
 
-.deg180 {
+.bar:nth-child(6) {
     transform: rotate(180deg) translate(12em) rotate(-90deg);
+    animation-delay: .6s;
 }
 
-.deg210 {
+.bar:nth-child(7) {
     transform: rotate(210deg) translate(12em) rotate(-90deg);
+    animation-delay: .7s;
 }
 
-.deg240 {
+.bar:nth-child(8) {
     transform: rotate(240deg) translate(12em) rotate(-90deg);
+    animation-delay: .8s;
 }
 
-.deg270 {
+.bar:nth-child(9) {
     transform: rotate(270deg) translate(12em) rotate(-90deg);
+    animation-delay: .9s;
 }
 
-.deg300 {
+.bar:nth-child(10) {
     transform: rotate(300deg) translate(12em) rotate(-90deg);
+    animation-delay: 1s;
 }
 
-.deg330 {
+.bar:nth-child(11) {
     transform: rotate(330deg) translate(12em) rotate(-90deg);
+    animation-delay: 1.1s;
 }
 
-.deg360 {
+.bar:nth-child(12) {
     transform: rotate(360deg) translate(12em) rotate(-90deg);
+    animation-delay: 1.2s;
+}
+
+@keyframes flush {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
