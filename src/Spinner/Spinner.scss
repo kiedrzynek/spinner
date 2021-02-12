@@ -1,0 +1,32 @@
+.Spinner {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar {
+    width: 25px;
+    height: 50px;
+    background-color: darkslategray;
+    border-radius: 25px / 50px;
+
+    position: absolute;
+
+    animation: flush infinite 1.2s linear;
+}
+
+@for $i from 1 through 12 {
+    .bar:nth-child(#{$i}) {
+        transform: rotate(30 * $i + deg) translate(6em) rotate(-90deg);
+        animation-delay: $i / 10 + s;
+    }
+}
+
+@keyframes flush {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
