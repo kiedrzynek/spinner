@@ -1,28 +1,38 @@
 {
-  "name": "spinner",
-  "version": "0.1.0",
-  "private": true,
+  "name": "spinner-package",
+  "version": "1.1.0",
+  "description": "Simple spinner made for educational purposes",
+  "private": false,
   "homepage": ".",
+  "main": "index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.6.3",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-scripts": "4.0.1"
   },
-  "scripts": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiedrzynek/spinner.git"
+  },
+  "keywords": [
+    "spinner",
+    "loader",
+    "react"
+  ],
+  "author": "kiedrzynek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiedrzynek/spinner/issues"
+  },
+    "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
